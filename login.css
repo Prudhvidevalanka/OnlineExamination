@@ -1,0 +1,54 @@
+body{
+    background-image: url("bgmimage.jpg");
+    
+}
+#container{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#login{
+    height:300px;
+    width:300px;
+    background-color: white;
+    margin-top: 50px;
+    border-radius:20px 20px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+#user{
+    width:200px;
+    height:25px;
+    border-radius :20px; 
+    border:solid;
+    border-width:1px;
+    padding-left:20px;
+    
+}
+
+#pass{
+    
+    width:200px;
+    height:25px;
+    border-radius :20px; 
+    border:solid;
+    border-width:1px;
+    padding-left:20px;
+}
+#submit{
+    border:none;
+    background-color: rgb(62, 62, 244);
+    color:white;
+    font-size: 20px;
+    padding:10px 40px;
+    border-radius: 20px;
+}
+
+#submit:hover{
+    background-color: rgb(69, 208, 69);
+}
